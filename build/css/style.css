@@ -190,6 +190,7 @@ a {
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
+  font-size: 13px;
 }
 
 .header__number {
@@ -1618,7 +1619,7 @@ a {
 
   .header__btn {
     width: 141px;
-    height: 42px;
+    height: 36px;
     font-size: 11px;
     margin-right: 5px;
   }
@@ -1670,6 +1671,60 @@ a {
 @media (max-width: 991.98px) {
   .container {
     max-width: 970px;
+  }
+
+  .header__logo {
+    width: 86%;
+  }
+
+  .header__navbar {
+    margin-left: -20px;
+  }
+
+  .header__quest {
+    line-height: 8px;
+  }
+
+  .header__number {
+    font-size: 15px;
+  }
+
+  .header__btn-primary {
+    width: 190px;
+    height: 50px;
+    font-size: 14px;
+    margin: 43px auto 0;
+  }
+
+  .header__figur {
+    left: 0;
+  }
+
+  .header__figur:before {
+    width: 358px;
+  }
+
+  .header__figur:after {
+    width: 358px;
+  }
+
+  .header__pretitle {
+    margin-left: 0;
+    font-size: 23px;
+  }
+
+  .header__title {
+    font-size: 64px;
+    margin-left: 0;
+  }
+
+  .header__subtitle {
+    font-size: 38px;
+    margin-left: 0;
+  }
+
+  .header__offers-text {
+    font-size: 15px;
   }
 }
 
