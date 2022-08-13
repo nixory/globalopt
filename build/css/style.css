@@ -1668,13 +1668,34 @@ a {
   }
 }
 
+@media (max-width: 1124px) {
+  .price__consult::before,
+  .price__consult::after {
+    width: 43%;
+  }
+
+  .price__consult::after {
+    left: 56.9%;
+  }
+
+  .price__form-btn::before,
+  .price__form-btn::after {
+    width: 38.5%;
+  }
+
+  .price__form-btn::after {
+    left: 61.6%;
+    width: 38.2%;
+  }
+}
+
 @media (max-width: 991.98px) {
   .container {
     max-width: 970px;
   }
 
   .header__logo {
-    width: 86%;
+    width: 77%;
   }
 
   .header__navbar {
@@ -1725,6 +1746,124 @@ a {
 
   .header__offers-text {
     font-size: 15px;
+  }
+
+  .price__form-input {
+    width: 220px;
+  }
+
+  .shema__wrapper2 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .feedback__swipper-item1 {
+    width: 601px;
+  }
+
+  .feedback__swipper__button-prev {
+    left: 37%;
+  }
+
+  .feedback__swipper__button-next {
+    right: 37%;
+  }
+
+  .feedback__swiper-item__wrapper {
+    padding: 0 194px 30px;
+  }
+
+  .quest__header {
+    min-width: 720px;
+  }
+
+  .quest__body {
+    min-width: 720px;
+  }
+
+  .quest__input {
+    width: 210px;
+  }
+
+  .quest__inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .quest__textarea {
+    width: 639px;
+  }
+
+  .footer__prefooter-img {
+    margin-left: 9px;
+  }
+
+  .footer__prefooter-heading {
+    font-size: 14px;
+    margin-left: 11px;
+  }
+
+  .footer__prefooter-tel {
+    font-size: 14px;
+  }
+
+  .footer__prefooter-btn {
+    width: 134px;
+    font-size: 11px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 952px) {
+  .price__consult::before,
+  .price__consult::after {
+    width: 42%;
+  }
+
+  .price__consult::after {
+    left: 57.9%;
+  }
+
+  .price__form-btn::before,
+  .price__form-btn::after {
+    width: 36.5%;
+  }
+
+  .price__form-btn::after {
+    width: 36.5%;
+    left: 63.3%;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__info {
+    display: none;
+  }
+}
+
+@media (max-width: 838px) {
+  .price__consult::before,
+  .price__consult::after {
+    width: 40%;
+  }
+
+  .price__consult::after {
+    left: 59.9%;
+  }
+
+  .price__form-btn::before,
+  .price__form-btn::after {
+    width: 34.5%;
+  }
+
+  .price__form-btn::after {
+    width: 34.5%;
+    left: 65.3%;
   }
 }
 
