@@ -107,7 +107,7 @@ a {
 }
 
 .header {
-  background-image: url("../img/bgc1.jpg");
+  background-image: url("../img/bgc1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -566,7 +566,7 @@ a {
 }
 
 .agent {
-  background-image: url("../img/bgc2.jpg");
+  background-image: url("../img/bgc2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -944,7 +944,7 @@ a {
 }
 
 .managers {
-  background-image: url("../img/bgc4.jpg");
+  background-image: url("../img/bgc4.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -1251,7 +1251,7 @@ a {
 }
 
 .quest {
-  background-image: url(../img/plane.jpg);
+  background-image: url(../img/bgc3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
