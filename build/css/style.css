@@ -1952,8 +1952,8 @@ a {
   }
 
   .benefits__benefit {
-    -ms-flex-preferred-size: 55%;
-        flex-basis: 55%;
+    -ms-flex-preferred-size: 64%;
+        flex-basis: 64%;
   }
 
   .price__form-input {
@@ -2093,6 +2093,10 @@ a {
     left: 66.9%;
   }
 
+  .price__consult::after {
+    left: 71.9%;
+  }
+
   .price__form-btn::before,
   .price__form-btn::after {
     width: 27%;
@@ -2104,8 +2108,192 @@ a {
   }
 }
 
+@media (max-width: 482px) {
+  .price__form-btn::before,
+  .price__form-btn::after {
+    width: 23%;
+  }
+
+  .price__form-btn::after {
+    width: 23%;
+    left: 76.8%;
+  }
+}
+
 @media (max-width: 479.98px) {
   .container {
     max-width: none;
+  }
+
+  .header__btn {
+    height: 39px;
+    width: 125px;
+    font-size: 10px;
+  }
+
+  .header__pretitle {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+
+  .header__title {
+    font-size: 52px;
+  }
+
+  .header__subtitle {
+    font-size: 28px;
+  }
+
+  .benefits__benefit {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+
+  .ourwork-img {
+    width: 280px;
+  }
+
+  .ourwork__title {
+    font-size: 24px;
+  }
+
+  .ourwork__subtitle {
+    font-size: 18px;
+  }
+
+  .ourwork__descr-text {
+    text-align: center;
+  }
+
+  .ourwork__offer:nth-child(2) {
+    margin-left: 12px;
+  }
+
+  .agent__title {
+    font-size: 25px;
+  }
+
+  .agent__text {
+    font-size: 18px;
+  }
+
+  .price__title {
+    font-size: 24px;
+  }
+
+  .price__subtitle {
+    font-size: 21px;
+  }
+
+  .price__form::before,
+  .price__form::after {
+    height: 88.7%;
+  }
+
+  .price__form-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200px;
+    margin-bottom: 10px;
+    padding-left: 22px;
+  }
+
+  .managers__title {
+    font-size: 24px;
+  }
+
+  .managers__text {
+    font-size: 16px;
+  }
+
+  .shema__title {
+    font-size: 24px;
+  }
+
+  .feedback__title {
+    font-size: 24px;
+  }
+
+  .feedback__subtitle {
+    font-size: 19px;
+  }
+
+  .feedback__swipper__button-prev {
+    left: 14%;
+  }
+
+  .feedback__swipper__button-next {
+    right: 14%;
+  }
+
+  .feedback__swiper-item__wrapper {
+    padding: 0 15px 30px;
+  }
+
+  .quest__wrapper {
+    margin-left: 0;
+  }
+
+  .quest__header {
+    min-width: 265px;
+  }
+
+  .quest__body {
+    min-width: 265px;
+  }
+
+  .footer__prefooter-preinfo {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer__prefooter-img {
+    margin-left: 0;
+    margin-bottom: 7px;
+  }
+
+  .footer__prefooter-heading {
+    font-size: 13px;
+  }
+
+  .footer__footer-corp {
+    margin-left: 0;
+    font-size: 11px;
+  }
+
+  .footer__footer-polityc {
+    font-size: 11px;
+  }
+
+  .footer__footer-sitecr {
+    font-size: 11px;
+    margin-right: -3px;
+  }
+}
+
+@media (max-width: 410px) {
+  .price__consult::before,
+  .price__consult::after {
+    width: 28%;
+  }
+
+  .price__form-btn::before,
+  .price__form-btn::after {
+    width: 14%;
+  }
+
+  .price__form-btn::after {
+    width: 14%;
+    left: 85.8%;
   }
 }
