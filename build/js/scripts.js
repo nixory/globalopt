@@ -17,9 +17,17 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 $('.modal-menu').hide();
-$("#header-modal").click(function () {
-    $('.modal-menu').show();
+
+    
+
+$("#header-modal").click(function () { // проверка на активное разрешение экрана пользователя = если меньше или равно 768px, то модальное окно с работает, если нет то нет
+    const pageWidth = document.documentElement.scrollWidth
+    if (pageWidth <= 768) {
+        $('.modal-menu').show();
+    }
+    
 });
+
 
 
 
