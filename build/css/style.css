@@ -2060,6 +2060,48 @@ a {
   .footer__footer-polityc {
     margin-right: 0;
   }
+
+  .modal-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #E8E8E8;
+    top: 0;
+  }
+
+  .modal-menu__exit-img {
+    position: absolute;
+    right: 9px;
+    width: 38px;
+    top: 5px;
+  }
+
+  .modal-menu__navbar {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .modal-menu__navbar-link {
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16.71px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 2px;
+  }
+
+  .modal-menu__navbar-link:hover {
+    color: #ec644b;
+    border-bottom: 1px #ec644b solid;
+  }
+
+  .modal-menu__navbar-item {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 663px) {

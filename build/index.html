@@ -17,14 +17,14 @@
 		<div class="header__blur">
 			<div class="container">
 				<div class="header-top">
-					<a class="header__link" href="#"><img alt="header logo" class="header__logo" src="img/header-logo.svg"></a>
+					<a class="header__link" href="#" id="header-modal"><img alt="header logo" class="header__logo" src="img/header-logo.svg"></a>
 					<div class="header__navbar">
-						<div class="header__navbar-item"><a class="header__navbar-link" href="#">Преимущества</a></div>
-                        <div class="header__navbar-item"><a class="header__navbar-link" href="#">Наша работа</a></div>
-                        <div class="header__navbar-item"><a class="header__navbar-link" href="#">Цены</a></div>
-                        <div class="header__navbar-item"><a class="header__navbar-link" href="#">Схема работы</a></div>
-                        <div class="header__navbar-item"><a class="header__navbar-link" href="#">Отзывы</a></div>
-                        <div class="header__navbar-item"><a class="header__navbar-link" href="#">Контакты</a></div>
+						<div class="header__navbar-item"><a class="header__navbar-link" href="#benefit">Преимущества</a></div>
+                        <div class="header__navbar-item"><a class="header__navbar-link" href="#ourwork">Наша работа</a></div>
+                        <div class="header__navbar-item"><a class="header__navbar-link" href="#price">Цены</a></div>
+                        <div class="header__navbar-item"><a class="header__navbar-link" href="#pattern">Схема работы</a></div>
+                        <div class="header__navbar-item"><a class="header__navbar-link" href="#reviews">Отзывы</a></div>
+                        <div class="header__navbar-item"><a class="header__navbar-link" href="#contacts">Контакты</a></div>
 					</div>
 					<div class="header__info">
 						<span class="header__quest">Есть вопросы?</span> <a class="header__number" href="tel:+79264230100">+7 (926) 423 01 00</a>
@@ -51,7 +51,18 @@
 			</div>
 		</div>
 	</header>
-	<section class="benefits">
+	<div class="modal-menu">
+		<a href="#" class="modal-menu__exit" id="exit"><img src="img/exiticon.svg" alt="" class="modal-menu__exit-img"></a>
+		<div class="modal-menu__navbar">
+			<div class="modal-menu__navbar-item"><a class="modal-menu__navbar-link" href="#benefit" id="benefit-btn">Преимущества</a></div>
+			<div class="modal-menu__navbar-item"><a class="modal-menu__navbar-link" href="#ourwork" id="ourwork-btn">Наша работа</a></div>
+			<div class="modal-menu__navbar-item"><a class="modal-menu__navbar-link" href="#price" id="price-btn">Цены</a></div>
+			<div class="modal-menu__navbar-item"><a class="modal-menu__navbar-link" href="#pattern" id="pattern-btn">Схема работы</a></div>
+			<div class="modal-menu__navbar-item"><a class="modal-menu__navbar-link" href="#reviews" id="reviews-btn">Отзывы</a></div>
+			<div class="modal-menu__navbar-item"><a class="modal-menu__navbar-link" href="#contacts" id="contacts-btn">Контакты</a></div>
+		</div>
+	</div>
+	<section class="benefits" id="benefit">
 		<div class="container">
 			<h2 class="benefits__title">Преимущества работы с GlobalOpt</h2>
 			<div class="benefits-wrapper">
@@ -106,7 +117,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="ourwork">
+	<section class="ourwork" id="ourwork">
 		<div class="container">
 			<h2 class="ourwork__title">Наша работа - больше чем просто доставка</h2>
 			<div class="ourwork__line"></div><span class="ourwork__subtitle">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза<br>
@@ -147,7 +158,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="price">
+	<section class="price" id="price">
 		<div class="container">
 			<h3 class="price__title">Цены на любой вариант доставки</h3>
 			<div class="price__line"></div><span class="price__subtitle">Перевозки грузов на дальние расстояния без каких-либо ограничений.<br>
@@ -221,7 +232,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="shema">
+	<section class="shema" id="pattern">
 		<div class="container">
 			<h3 class="shema__title">Схема работы с нами</h3>
 			<div class="shema__wrapper">
@@ -282,7 +293,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="feedback">
+	<section class="feedback" id="reviews">
 		<div class="container">
 			<h3 class="feedback__title">отзывы наших клиентов</h3>
 			<div class="feedback__line line"></div><span class="feedback__subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</span>
@@ -358,7 +369,7 @@
           <span class="map__email">info@glopt.ru</span>
         </div>   -->
 	</section>
-	<footer class="footer">
+	<footer class="footer" id="contacts">
 		<div class="container">
 			<div class="footer__prefooter">
 				<div class="footer__prefooter-preinfo">
